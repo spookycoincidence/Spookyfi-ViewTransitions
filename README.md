@@ -1,23 +1,81 @@
-# Spotify clone with View Transitions from Astro 3.0 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 
-Clone of Spotify with [Astro View Transitions](https://docs.astro.build/en/guides/view-transitions/) is an **experimental feature** for fluid navigation, this example use tailwindcss and svelte.
+![spookyfi](spookyfi.png)
 
-## Deploy
-You can Deploy the example using [Vercel Template](https://vercel.com/templates/astro/view-transitions) or see a [live demo](https://spotify-astro-transitions.vercel.app/)
+# 🎤 Lady Gaga Albums — View Transitions Visual Demo  
+[![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?](https://vercel.com/new/clone?demo-description=Spotify%20clone%20built%20with%20Astro%20View%20Transitions%20integration%20for%20fluid%20navigation%20%2B%20TailwindCSS%20%2B%20Svelte.%0A&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F59uwliGeS8XoE5nHRBEsfI%2F2232d50cdddae956828ddb501ff2d993%2FCleanShot_2023-09-05_at_16.13.01_2x.png&demo-title=Spotify%20Clone%20with%20Astro%20View%20Transitions&demo-url=https%3A%2F%2Fspotify-astro-transitions.vercel.app%2F&from=templates&project-name=Spotify%20Clone%20with%20Astro%20View%20Transitions&repository-name=view-transitions&repository-url=https%3A%2F%2Fgithub.com%2Figorm84%2Fspotify-astro-transitions&skippable-integrations=1))
+Una demo visual construida con [Astro View Transitions](https://docs.astro.build/en/guides/view-transitions/), inspirada en la discografía y el amor por **Lady Gaga**. Este proyecto no es un clon de Spotify, sino un homenaje a sus eras musicales, usando animaciones fluidas para crear una experiencia visual única.
 
-#### Video
-https://github.com/igorm84/spotify-astro-transitions/assets/16727448/1e34f079-1f17-4ff1-9285-1dc406f0c631
+---
+## 🚀 Deploy
 
-### About
+[Vercel](https://vercel.com/)
 
-View Transition is a **experimental** mechanism to transition between DOM states, learn more in these links:
+---
+## ✨ Características
+* Vista inicial con los cinco álbumes de Lady Gaga.
+* Detalles individuales por álbum, con transiciones fluidas.
+* Fondos y estilos únicos por era:
+    - 💀 *The Fame Monster* 
+    - 🖤 *Mayhem* 
+    - 🌙 *Joanne* 
+    - 🫀 *Born This Way* 
+    - 🪩 *Chromatica* 
+* Portadas personalizadas desde `/public/images`.
+* Transiciones suaves con `ViewTransitions API` y estilos dinámicos.
 
-- Astro Documentation: https://docs.astro.build/en/guides/view-transitions/
-- MDN Documentation: https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API
+---
 
-### Known issues
-#### Firefox and iOS Browsers
-Unfornatelly those browsers aren't compatible yet, see
-https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API#browser_compatibility
+## 🚀 Instalación y uso
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/spookycoincidence/Spookyfi-ViewTransitions
+```
+2. Instalar dependencias:
+```bash
+cd Spookyfi-ViewTransitions
+npm install
+```
+3. Correr la app en modo desarrollo:
+```bash
+npm run dev
+```
+4. Abrir http://localhost:3000 en el navegador
+
+## 📸 Screenshots
+
+| ![](SpotifyInicio.png) 
+
+---
+
+| ![](MayhemCap.png) 
+
+---
+
+| ![](TheFameMonsterCap.png) 
+
+---
+
+| ![](JoanneCap.png) 
+
+---
+
+| ![](BornThisWayCap.png) 
+
+---
+
+| ![](ChromaticaCap.png) 
+
+---
+
+| ![](SongListCap.png) 
+
+---
+
+## 🪄 Tecnologías
+* 💜 [Astro 3.0](https://astro.build)
+* 💜 CSS Modules
+* 💜 TypeScript
+* 💜 View Transitions API (experimental)
+
+## Desarrollado con ❤️ por spookycoincidence

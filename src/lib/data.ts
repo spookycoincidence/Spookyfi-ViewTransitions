@@ -11,54 +11,47 @@ export interface Playlist {
 export const playlists: Playlist[] = [
   {
     id: "1",
-    title: "Electronic Party",
+    title: "Mayhem",
     color: colors.teal,
     cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776174/spotify-astro/playlist_1_yci5uf.jpg",
-    artists: ["Avicii", "Alok"],
+      "/images/mayhem.png", // cambia la URL por la que tengas
+    artists: ["Lady Gaga"],
   },
   {
     id: "2",
-    title: "Trance",
+    title: "The Fame Monster",
     color: colors.green,
     cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776174/spotify-astro/playlist_2_f9ymlx.jpg",
-    artists: ["Tiesto", "Armin Van Buuren"],
+      "/images/theamemonster.png",
+    artists: ["Lady Gaga"],
   },
   {
     id: "3",
-    title: "Trap Vibes",
+    title: "Joanne",
     color: colors.rose,
     cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776175/spotify-astro/playlist_3_grshca.jpg",
-    artists: ["Post Malone", "Travis Scott", "21 savage"],
+      "/images/joanne.png",
+    artists: ["Lady Gaga"],
   },
   {
     id: "4",
-    title: "Beatles Classics",
+    title: "Born This Way",
     color: colors.red,
     cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776175/spotify-astro/playlist_4_ap5xnb.jpg",
-    artists: ["The Beatles"],
+       "/images/bornthisway.png",
+    artists: ["Lady Gaga"],
   },
   {
     id: "5",
-    title: "Electronic Dance",
+    title: "Chromatica",
     color: colors.pink,
     cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776175/spotify-astro/playlist_5_erjyb7.jpg",
-    artists: ["Deadmau5"],
-  },
-  {
-    id: "6",
-    title: "Cow songs",
-    color: colors.gray,
-    cover:
-      "https://res.cloudinary.com/dp3ppkxo5/image/upload/v1693776474/spotify-astro/R-15112137-1586815179-1911_fsyl58.jpg",
-    artists: ["Saint Hilda", "Canada Buffalo"],
+      "/images/chromatica.png",
+    artists: ["Lady Gaga"],
   },
 ];
 
+// Para más playlists y sidebarPlaylists, lo mismo que antes, protegido
 export const morePlaylists = [
   ...playlists.map((item) => ({
     ...item,
@@ -88,85 +81,135 @@ interface Song {
   duration: string;
 }
 const songScale = "w_40,h_40,c_scale";
+
 export const songs: Song[] = [
+  // Mayhem (2025)
   {
     id: "1",
-    title: "The Nights",
-    image: `https://res.cloudinary.com/dp3ppkxo5/image/upload/${songScale}/v1693776175/spotify-astro/song_1_qitfwl.jpg`,
-    artists: ["Avicii"],
-    album: "The Days / Nights",
-    duration: "2:56",
+    title: "Abracadabra",
+    image: "/images/mayhem2.png",
+    artists: ["Lady Gaga"],
+    album: "Mayhem",
+    duration: "3:20",
   },
   {
     id: "2",
-    title: "Saint-Tropez",
-    image: `https://res.cloudinary.com/dp3ppkxo5/image/upload/${songScale}/v1693776175/spotify-astro/song_2_cijs8v.jpg`,
-    artists: ["Post Malone"],
-    album: "Hollywood's Bleeding",
-    duration: "2:23",
+    title: "Die With a Smile",
+    image: "/images/mayhem2.png",
+    artists: ["Lady Gaga"],
+    album: "Mayhem (2025)",
+    duration: "4:00",
   },
+
+  // The Fame Monster
   {
     id: "3",
-    title: "SICKO MODE",
-    image: `https://res.cloudinary.com/dp3ppkxo5/image/upload/${songScale}/v1693776176/spotify-astro/song_3_td9ncs.jpg`,
-    artists: ["Travis Scott", "Drake"],
-    album: "ASTROWORLD",
-    duration: "5:13",
+    title: "Bad Romance",
+    image: "/images/thefamemonster2.png",
+    artists: ["Lady Gaga"],
+    album: "The Fame Monster",
+    duration: "4:54",
   },
   {
     id: "4",
-    title: "Blinding Lights",
-    image: `https://res.cloudinary.com/dp3ppkxo5/image/upload/${songScale}/v1693776176/spotify-astro/song_4_lwumgu.png`,
-    artists: ["The Weeknd"],
-    album: "After Hours",
-    duration: "3:22",
+    title: "Alejandro",
+    image: "/images/thefamemonster2.png",
+    artists: ["Lady Gaga"],
+    album: "The Fame Monster",
+    duration: "4:34",
   },
   {
     id: "5",
-    title: "Shape of You",
-    image: `https://res.cloudinary.com/dp3ppkxo5/image/upload/${songScale}/v1693776175/spotify-astro/song_5_rd5xqa.jpg`,
-    artists: ["Ed Sheeran"],
-    album: "÷ (Divide)",
-    duration: "3:53",
+    title: "Dance In The Dark",
+    image: "/images/thefamemonster2.png",
+    artists: ["Lady Gaga"],
+    album: "The Fame Monster",
+    duration: "4:49",
   },
   {
     id: "6",
-    title: "Uptown Funk",
-    image: `https://res.cloudinary.com/dp3ppkxo5/image/upload/${songScale}/v1693776175/spotify-astro/song_6_f1lt7y.jpg`,
-    artists: ["Mark Ronson", "Bruno Mars"],
-    album: "Uptown Special",
-    duration: "4:30",
+    title: "Speechless",
+    image: "/images/thefamemonster2.png",
+    artists: ["Lady Gaga"],
+    album: "The Fame Monster",
+    duration: "5:00",
   },
   {
     id: "7",
-    title: "Bad Guy",
-    image: `https://res.cloudinary.com/dp3ppkxo5/image/upload/${songScale}/v1693776175/spotify-astro/song_7_m7f0mh.jpg`,
-    artists: ["Billie Eilish"],
-    album: "When We All Fall Asleep, Where Do We Go?",
-    duration: "3:14",
+    title: "Telephone",
+    image: "/images/thefamemonster2.png",
+    artists: ["Lady Gaga"],
+    album: "The Fame Monster",
+    duration: "3:40",
   },
+
+  // Joanne
   {
     id: "8",
-    title: "Yesterday",
-    image: `https://res.cloudinary.com/dp3ppkxo5/image/upload/${songScale}/v1693776175/spotify-astro/song_8_hwxisr.jpg`,
-    artists: ["The Beatles"],
-    album: "Today & Tomorrow",
-    duration: "4:38",
+    title: "Perfect Ilusión",
+    image: "/images/joanne.png",
+    artists: ["Lady Gaga"],
+    album: "Joanne",
+    duration: "3:52",
   },
   {
     id: "9",
-    title: "Havana",
-    image: `https://res.cloudinary.com/dp3ppkxo5/image/upload/${songScale}/v1693776176/spotify-astro/song_9_szemzp.jpg`,
-    artists: ["Camila Cabello", "Young Thug"],
-    album: "Camila",
-    duration: "3:37",
+    title: "Million Reasons",
+    image: "/images/joanne.png",
+    artists: ["Lady Gaga"],
+    album: "Joanne",
+    duration: "3:59",
   },
   {
     id: "10",
-    title: "Radioactive",
-    image: `https://res.cloudinary.com/dp3ppkxo5/image/upload/${songScale}/v1693776176/spotify-astro/song_10_sz0cib.jpg`,
-    artists: ["Imagine Dragons"],
-    album: "Night Visions",
-    duration: "3:07",
+    title: "Joanne",
+    image: "/images/joanne.png",
+    artists: ["Lady Gaga"],
+    album: "Joanne",
+    duration: "3:14",
+  },
+
+  // Born This Way
+  {
+    id: "11",
+    title: "Born This Way",
+    image: "/images/bornthisway.png",
+    artists: ["Lady Gaga"],
+    album: "Born This Way",
+    duration: "4:20",
+  },
+  {
+    id: "12",
+    title: "Judas",
+    image: "/images/bornthisway.png",
+    artists: ["Lady Gaga"],
+    album: "Born This Way",
+    duration: "4:10",
+  },
+  {
+    id: "13",
+    title: "Hair",
+    image: "/images/bornthisway.png",
+    artists: ["Lady Gaga"],
+    album: "Born This Way",
+    duration: "5:00",
+  },
+  {
+    id: "14",
+    title: "Scheibe",
+    image: "/images/bornthisway.png",
+    artists: ["Lady Gaga"],
+    album: "Born This Way",
+    duration: "4:50",
+  },
+
+  // Chromatica
+  {
+    id: "15",
+    title: "Rain On Me",
+    image: "/images/chromatica.png",
+    artists: ["Lady Gaga"],
+    album: "Chromatica",
+    duration: "3:02",
   },
 ];
