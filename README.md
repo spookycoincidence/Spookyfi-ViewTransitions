@@ -1,7 +1,7 @@
 
 ![spookyfi](spookyfi.png)
 
-# 🎤 Lady Gaga Albums — View Transitions Visual Demo  
+# Spookyfi - Lady Gaga Albums — View Transitions Visual Demo  
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 
 Una demo visual construida con [Astro View Transitions](https://docs.astro.build/en/guides/view-transitions/), inspirada en la discografía y el amor por **Lady Gaga**. Este proyecto no es un clon de Spotify, sino un homenaje a sus eras musicales, usando animaciones fluidas para crear una experiencia visual única.
@@ -9,11 +9,11 @@ Una demo visual construida con [Astro View Transitions](https://docs.astro.build
 ---
 ## 🚀 Deploy
 
-[Vercel](https://vercel.com/)
+[Vercel](https://spookyfi-view-transitions.vercel.app/)
 
 ---
 ## ✨ Características
-* Vista inicial con los cinco álbumes de Lady Gaga.
+* Vista inicial con cinco álbumes de Lady Gaga.
 * Detalles individuales por álbum, con transiciones fluidas.
 * Fondos y estilos únicos por era:
     - 💀 *The Fame Monster* 
@@ -44,31 +44,31 @@ npm run dev
 
 ## 📸 Screenshots
 
-| ![](SpotifyInicio.png) 
+ ![](SpotifyInicio.png) 
 
 ---
 
-| ![](MayhemCap.png) 
+ ![](MayhemCap.png) 
 
 ---
 
-| ![](TheFameMonsterCap.png) 
+ ![](TheFameMonsterCap.png) 
 
 ---
 
-| ![](JoanneCap.png) 
+ ![](JoanneCap.png) 
 
 ---
 
-| ![](BornThisWayCap.png) 
+ ![](BornThisWayCap.png) 
 
 ---
 
-| ![](ChromaticaCap.png) 
+ ![](ChromaticaCap.png) 
 
 ---
 
-| ![](SongListCap.png) 
+ ![](SongListCap.png) 
 
 ---
 
